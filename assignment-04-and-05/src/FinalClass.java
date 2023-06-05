@@ -1,4 +1,4 @@
-public final class FinalClass {
+ final class FinalClass {
 
     final int FINAL_VAR=100;
 
