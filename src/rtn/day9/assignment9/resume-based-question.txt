@@ -1,0 +1,30 @@
+1. Tell me about yourself.
+
+I currently work at XXXXX as a Java full stack developer, bringing 9 years of professional experience in the field.
+Throughout my career, I have built a strong expertise in developing secure, reliable, and scalable distributed systems, microservices,
+and web services using the latest Java technologies and following agile methodologies.
+My focus has been on ensuring high availability, low latency, and optimal performance across different internet access devices.
+
+As a full-stack developer, I have utilized Java for backend development and leveraged various frameworks, such as React JS and visualization libraries,
+to create interactive dashboards and front-end interfaces.
+I have worked with technologies including JEE, Spring, Spring Boot, Apache Kafka, Hibernate, Maven, SQL, NoSQL, JSP, JDBC,
+HTML, CSS, Bootstrap, Angular, GIT, and CI/CD tools for efficient deployment processes.
+Additionally, I have extensive experience in utilizing AWS services for infrastructure setup and deployment operations,
+along with setting up application hosting environments in different environments.
+
+Throughout my career, I have actively participated in troubleshooting production issues and
+have a proven track record of analyzing, designing, and implementing effective solutions.
+
+2. Tell me about your recent project.
+I have experience working on the Client Transfer Application (CTA), an internal application designed to facilitate various types of money transfer transactions
+including ACH, checks, wires, and journals. The application is built as an intranet using Angular for the user interface, providing separate screens for each
+transaction type to be utilized by field officers, financial advisors, and bank specialists.
+
+In the backend, we implemented microservices for handling different transaction types, and these services are hosted on the cloud.
+We utilized AWS and used relational database instances, specifically SQL Server, for data storage. Additionally,
+we incorporated Redis cache in front of our databases to efficiently handle read operations.
+For separation of concerns, we employed separate database instances for read and write operations.
+
+To ensure scalability and availability, we hosted our microservices on an auto scaling group within AWS.
+Each microservice has its own scaling policies defined as auto scaling group policies in JSON format, allowing for automatic scaling in and out of
+instances based on demand.
