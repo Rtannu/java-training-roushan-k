@@ -28,3 +28,11 @@ For separation of concerns, we employed separate database instances for read and
 To ensure scalability and availability, we hosted our microservices on an auto scaling group within AWS.
 Each microservice has its own scaling policies defined as auto scaling group policies in JSON format, allowing for automatic scaling in and out of
 instances based on demand.
+
+In terms of the technical stack, we developed system in microservice architecture and  utilized Java as our primary programming language. We developed microservices, APIs, and web services using Java,
+and we worked with various database technologies such as OracleDB, MySQLDB, MSDB, NoSQLDB, and ProcedureDB.
+We wrote queries to retrieve data from the databases and performed necessary manipulations within the APIs.
+The data was then sent to the user interface in JSON format. For connecting to the databases, we employed Hibernate (ORM) or JDBC.
+
+Regarding the user interface development, I also played a role in that aspect. We utilized Angular or React as front-end technologies to create web applications or single-page applications.
+We consumed the API responses from the backend and updated the user interface accordingly.
