@@ -66,4 +66,9 @@ public class SubmissionServiceImpl implements ISubmissionService {
         }
         throw new RuntimeException(serialNumber + " doesn't exist");
     }
+
+    @Override
+    public void deleteAll() {
+          submissionList.clear();
+    }
 }

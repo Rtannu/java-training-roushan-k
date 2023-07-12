@@ -15,4 +15,6 @@ public interface ISubmissionService {
      Submission createSubmission(SubmissionRequest submissionRequest);
      Submission updateSubmissionBySerialId(String serialNumber, SubmissionRequest submissionRequest);
      String deleteSubmissionBySerialId(String serialNumber);
+
+     void deleteAll();
 }
